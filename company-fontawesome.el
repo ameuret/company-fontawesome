@@ -12,7 +12,6 @@
     (propertize text 'meta meta)))
 
 (defun company-fontawesome--candidates (prefix)
-  (message "Seriously ?")
   (let (res)
     (dolist (item (all-the-icons-faicon-data))
       (when (string-prefix-p prefix (concat "fa-" (car item)))
@@ -43,9 +42,6 @@
   (add-to-list 'company-backends 'company-fontawesome))
 
 (provide 'company-fontawesome)
-
-
-;; fa-user
 
 ;; (all-the-icons-insert-icons-for 'faicon 1)
 

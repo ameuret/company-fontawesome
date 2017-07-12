@@ -27,8 +27,6 @@ Disable the conflicting font (usually one of font-mfizz or octicons)
 if you can't live with it until I find a way to force `company-mode`
 to display the completion list using the Font Awesome face exclusively.
 
-fa-yo
-
 ## Caveat Emptor
 
 I finished the first iteration of this plug-in 90 minutes after writing my first
