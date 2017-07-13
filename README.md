@@ -43,10 +43,16 @@ rough edgez. :grin:
 ## TODO
 
 - [ ] Cache candidates !
-- [ ] Offer to insert the character instead of the class name
+~- [ ] Offer to insert the character instead of the class name~
 - [ ] Add completions for the modifier class names (e.g. fa-spin,
   fa-border, etc.)
+- [ ] Add synonyms, e.g. magnifier / search from [the FA metadata](https://github.com/FortAwesome/Font-Awesome/blob/master/src/icons.yml) 
 - [ ] Steal more ideas from [Will Boyd](https://github.com/lonekorean/atom-autocomplete-font-awesome)
+- [ ] Properly package for MELPA
+
+## Contribute
+
+Don't hesitate to ask if you have ideas or wishes, I'll do my best.
 
 ## Acks
 
